@@ -1,0 +1,509 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1713635742183135, "dur":30357, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713635742213495, "dur":443, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713635742214023, "dur":116, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1713635742214139, "dur":64, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713635742218024, "dur":355, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/Source/il2cppOutput/__Generated.cpp" }}
+,{ "pid":12345, "tid":0, "ts":1713635742221518, "dur":145, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/build/deploy_arm64/Unity.IL2CPP.DataModel.dll" }}
+,{ "pid":12345, "tid":0, "ts":1713635742225606, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/baselib/Include/Internal/RedefineCompilerMacros.h" }}
+,{ "pid":12345, "tid":0, "ts":1713635742234902, "dur":143, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/libil2cpp/icalls/System/System.Diagnostics/DefaultTraceListener.h" }}
+,{ "pid":12345, "tid":0, "ts":1713635742214208, "dur":26962, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713635742241176, "dur":44913, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713635742286186, "dur":918, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1713635742214165, "dur":27016, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713635742241182, "dur":12715, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713635742253997, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713635742254093, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713635742253898, "dur":10490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker /Users/amermesmar/Desktop/Spinny Eraser/Library/Bee/artifacts/unitylinker_fi2v.traceevents" }}
+,{ "pid":12345, "tid":1, "ts":1713635742264388, "dur":3754, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713635742268851, "dur":2186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"IL2CPP_CodeGen /Users/amermesmar/Desktop/Spinny Eraser/Library/Bee/artifacts/il2cpp_conv_0qo2.traceevents" }}
+,{ "pid":12345, "tid":1, "ts":1713635742271038, "dur":7765, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713635742214167, "dur":27017, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713635742241185, "dur":478, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713635742241663, "dur":479, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713635742242142, "dur":450, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713635742242592, "dur":469, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713635742243061, "dur":422, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713635742243483, "dur":10419, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713635742253962, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713635742254031, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713635742254090, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713635742254201, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713635742254256, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/PackageCache/com.unity.ads@4.4.2/Plugins/iOS/UnityAds.framework/Headers/UnityAnalyticsAcquisitionType.h" }}
+,{ "pid":12345, "tid":2, "ts":1713635742254255, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Frameworks/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityAnalyticsAcquisitionType.h" }}
+,{ "pid":12345, "tid":2, "ts":1713635742254355, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/PackageCache/com.unity.ads@4.4.2/Plugins/iOS/UnityAds.framework/Headers/UPURProduct.h" }}
+,{ "pid":12345, "tid":2, "ts":1713635742254354, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Frameworks/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UPURProduct.h" }}
+,{ "pid":12345, "tid":2, "ts":1713635742254437, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/PackageCache/com.unity.ads@4.4.2/Plugins/iOS/UnityAds.framework/Headers/USRVJsonStorageAggregator.h" }}
+,{ "pid":12345, "tid":2, "ts":1713635742254437, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Frameworks/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/USRVJsonStorageAggregator.h" }}
+,{ "pid":12345, "tid":2, "ts":1713635742257709, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713635742258398, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713635742264744, "dur":216, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-poll.c" }}
+,{ "pid":12345, "tid":2, "ts":1713635742264743, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-poll.c" }}
+,{ "pid":12345, "tid":2, "ts":1713635742264960, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713635742265013, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-os-semaphore-win32.c" }}
+,{ "pid":12345, "tid":2, "ts":1713635742265012, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-os-semaphore-win32.c" }}
+,{ "pid":12345, "tid":2, "ts":1713635742265082, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713635742265150, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-mmap.c" }}
+,{ "pid":12345, "tid":2, "ts":1713635742265149, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-mmap.c" }}
+,{ "pid":12345, "tid":2, "ts":1713635742265208, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713635742265280, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-math.h" }}
+,{ "pid":12345, "tid":2, "ts":1713635742265280, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-math.h" }}
+,{ "pid":12345, "tid":2, "ts":1713635742265373, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-log-unity.c" }}
+,{ "pid":12345, "tid":2, "ts":1713635742265373, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-log-unity.c" }}
+,{ "pid":12345, "tid":2, "ts":1713635742265423, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713635742265504, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-lazy-init.h" }}
+,{ "pid":12345, "tid":2, "ts":1713635742265554, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713635742265613, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-hwcap-x86.c" }}
+,{ "pid":12345, "tid":2, "ts":1713635742265613, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-hwcap-x86.c" }}
+,{ "pid":12345, "tid":2, "ts":1713635742265663, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713635742265752, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-filemap.c" }}
+,{ "pid":12345, "tid":2, "ts":1713635742265752, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-filemap.c" }}
+,{ "pid":12345, "tid":2, "ts":1713635742265818, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713635742265912, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-dl.c" }}
+,{ "pid":12345, "tid":2, "ts":1713635742265912, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-dl.c" }}
+,{ "pid":12345, "tid":2, "ts":1713635742265968, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713635742266031, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-dl-posix.c" }}
+,{ "pid":12345, "tid":2, "ts":1713635742266030, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-dl-posix.c" }}
+,{ "pid":12345, "tid":2, "ts":1713635742266106, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713635742266263, "dur":88, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-coop-mutex.h" }}
+,{ "pid":12345, "tid":2, "ts":1713635742266262, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-coop-mutex.h" }}
+,{ "pid":12345, "tid":2, "ts":1713635742266351, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713635742266431, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-codeman.h" }}
+,{ "pid":12345, "tid":2, "ts":1713635742266430, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-codeman.h" }}
+,{ "pid":12345, "tid":2, "ts":1713635742266499, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713635742266578, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mach-support-x86.c" }}
+,{ "pid":12345, "tid":2, "ts":1713635742266577, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mach-support-x86.c" }}
+,{ "pid":12345, "tid":2, "ts":1713635742266628, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713635742266693, "dur":97, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/lock-free-alloc.h" }}
+,{ "pid":12345, "tid":2, "ts":1713635742266693, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/lock-free-alloc.h" }}
+,{ "pid":12345, "tid":2, "ts":1713635742266790, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713635742268109, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/metadata/verify.c" }}
+,{ "pid":12345, "tid":2, "ts":1713635742268108, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/metadata/verify.c" }}
+,{ "pid":12345, "tid":2, "ts":1713635742268172, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713635742268231, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/metadata/threads.h" }}
+,{ "pid":12345, "tid":2, "ts":1713635742268231, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/metadata/threads.h" }}
+,{ "pid":12345, "tid":2, "ts":1713635742268295, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713635742268358, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/metadata/threadpool-io.h" }}
+,{ "pid":12345, "tid":2, "ts":1713635742268358, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/metadata/threadpool-io.h" }}
+,{ "pid":12345, "tid":2, "ts":1713635742268888, "dur":327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/iOS/Features/System.Configuration-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1713635742269234, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/iOS/Features/Unity.InternalAPIEngineBridge.001-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1713635742269323, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/iOS/Features/UnityEngine.Physics2DModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1713635742269579, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/iOS/Features/System.Xml-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1713635742269685, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/iOS/Features/UnityEngine.GameCenterModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1713635742286024, "dur":67, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713635742214177, "dur":27010, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713635742241189, "dur":468, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713635742241657, "dur":477, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713635742242134, "dur":457, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713635742242591, "dur":464, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713635742243055, "dur":435, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713635742243490, "dur":10487, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713635742253979, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713635742254101, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713635742254158, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713635742254223, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713635742257716, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/libil2cpp/os/Posix/MarshalAlloc.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1713635742257716, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/libil2cpp/os/Posix/MarshalAlloc.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1713635742258023, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/libil2cpp/os/OSX/Process.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1713635742258022, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/libil2cpp/os/OSX/Process.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1713635742264753, "dur":219, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713635742265023, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713635742265102, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-os-mutex.c" }}
+,{ "pid":12345, "tid":3, "ts":1713635742265101, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-os-mutex.c" }}
+,{ "pid":12345, "tid":3, "ts":1713635742265158, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713635742265233, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-mmap-windows-internals.h" }}
+,{ "pid":12345, "tid":3, "ts":1713635742265232, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-mmap-windows-internals.h" }}
+,{ "pid":12345, "tid":3, "ts":1713635742265380, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713635742265442, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-log-darwin.c" }}
+,{ "pid":12345, "tid":3, "ts":1713635742265442, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-log-darwin.c" }}
+,{ "pid":12345, "tid":3, "ts":1713635742265520, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713635742265572, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-io-portability.c" }}
+,{ "pid":12345, "tid":3, "ts":1713635742265572, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-io-portability.c" }}
+,{ "pid":12345, "tid":3, "ts":1713635742265622, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713635742265694, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-hwcap-vars.h" }}
+,{ "pid":12345, "tid":3, "ts":1713635742265694, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-hwcap-vars.h" }}
+,{ "pid":12345, "tid":3, "ts":1713635742265766, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713635742265855, "dur":71, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-error.c" }}
+,{ "pid":12345, "tid":3, "ts":1713635742265854, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-error.c" }}
+,{ "pid":12345, "tid":3, "ts":1713635742265926, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713635742265986, "dur":91, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-dl-windows.c" }}
+,{ "pid":12345, "tid":3, "ts":1713635742265986, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-dl-windows.c" }}
+,{ "pid":12345, "tid":3, "ts":1713635742266077, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713635742266141, "dur":177, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-counters.h" }}
+,{ "pid":12345, "tid":3, "ts":1713635742266141, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-counters.h" }}
+,{ "pid":12345, "tid":3, "ts":1713635742266318, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713635742266371, "dur":109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-conc-hashtable.c" }}
+,{ "pid":12345, "tid":3, "ts":1713635742266370, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-conc-hashtable.c" }}
+,{ "pid":12345, "tid":3, "ts":1713635742266516, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/memcheck.h" }}
+,{ "pid":12345, "tid":3, "ts":1713635742266516, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/memcheck.h" }}
+,{ "pid":12345, "tid":3, "ts":1713635742266594, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713635742266658, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/lock-free-queue.c" }}
+,{ "pid":12345, "tid":3, "ts":1713635742266658, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/lock-free-queue.c" }}
+,{ "pid":12345, "tid":3, "ts":1713635742266741, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713635742266807, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/json.c" }}
+,{ "pid":12345, "tid":3, "ts":1713635742266807, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/json.c" }}
+,{ "pid":12345, "tid":3, "ts":1713635742266999, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/atomic.h" }}
+,{ "pid":12345, "tid":3, "ts":1713635742266999, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/atomic.h" }}
+,{ "pid":12345, "tid":3, "ts":1713635742268092, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/metadata/w32error-win32.c" }}
+,{ "pid":12345, "tid":3, "ts":1713635742268092, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/metadata/w32error-win32.c" }}
+,{ "pid":12345, "tid":3, "ts":1713635742268191, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/metadata/unity-liveness.c" }}
+,{ "pid":12345, "tid":3, "ts":1713635742268190, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/metadata/unity-liveness.c" }}
+,{ "pid":12345, "tid":3, "ts":1713635742268271, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713635742268324, "dur":69, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/metadata/threadpool.c" }}
+,{ "pid":12345, "tid":3, "ts":1713635742268323, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/metadata/threadpool.c" }}
+,{ "pid":12345, "tid":3, "ts":1713635742268874, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/iOS/Features/UnityEngine.TilemapModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":3, "ts":1713635742268974, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/iOS/Features/UnityEngine.IMGUIModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":3, "ts":1713635742269042, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/iOS/Features/Unity.Burst-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":3, "ts":1713635742269136, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/iOS/Features/mscorlib-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":3, "ts":1713635742269433, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/iOS/Features/UnityEngine.SpriteShapeModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":3, "ts":1713635742269520, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/iOS/Features/UnityEngine.GridModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":3, "ts":1713635742269633, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/iOS/Features/UnityEngine.PropertiesModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":3, "ts":1713635742274840, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/baselib/Include/External/utfcpp/source/utf8.h" }}
+,{ "pid":12345, "tid":3, "ts":1713635742279479, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/build/deploy_arm64/Unity.IL2CPP.Shell.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713635742279479, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/build/deploy_arm64/Unity.IL2CPP.Shell.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713635742214180, "dur":27015, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713635742241196, "dur":481, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713635742241677, "dur":477, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713635742242155, "dur":449, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713635742242604, "dur":466, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713635742243070, "dur":426, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713635742243496, "dur":10430, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713635742253969, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713635742254094, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713635742254155, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713635742254209, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713635742254266, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/PackageCache/com.unity.ads@4.4.2/Plugins/iOS/UnityAds.framework/Headers/UnityMonetizationDelegate.h" }}
+,{ "pid":12345, "tid":4, "ts":1713635742254265, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Frameworks/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityMonetizationDelegate.h" }}
+,{ "pid":12345, "tid":4, "ts":1713635742264727, "dur":213, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713635742264984, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713635742265065, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-os-mutex.h" }}
+,{ "pid":12345, "tid":4, "ts":1713635742265065, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-os-mutex.h" }}
+,{ "pid":12345, "tid":4, "ts":1713635742265186, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-mmap-windows.c" }}
+,{ "pid":12345, "tid":4, "ts":1713635742265185, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-mmap-windows.c" }}
+,{ "pid":12345, "tid":4, "ts":1713635742265248, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713635742265345, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713635742265402, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-log-posix.c" }}
+,{ "pid":12345, "tid":4, "ts":1713635742265401, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-log-posix.c" }}
+,{ "pid":12345, "tid":4, "ts":1713635742265469, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713635742265537, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-io-portability.h" }}
+,{ "pid":12345, "tid":4, "ts":1713635742265537, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-io-portability.h" }}
+,{ "pid":12345, "tid":4, "ts":1713635742265645, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-hwcap-web.c" }}
+,{ "pid":12345, "tid":4, "ts":1713635742265645, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-hwcap-web.c" }}
+,{ "pid":12345, "tid":4, "ts":1713635742265727, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713635742265799, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-error.h" }}
+,{ "pid":12345, "tid":4, "ts":1713635742265798, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-error.h" }}
+,{ "pid":12345, "tid":4, "ts":1713635742265866, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713635742265988, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-dl-windows-uwp.c" }}
+,{ "pid":12345, "tid":4, "ts":1713635742265987, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-dl-windows-uwp.c" }}
+,{ "pid":12345, "tid":4, "ts":1713635742266050, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713635742266116, "dur":175, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-digest.h" }}
+,{ "pid":12345, "tid":4, "ts":1713635742266115, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-digest.h" }}
+,{ "pid":12345, "tid":4, "ts":1713635742266291, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713635742266361, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-conc-hashtable.h" }}
+,{ "pid":12345, "tid":4, "ts":1713635742266360, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-conc-hashtable.h" }}
+,{ "pid":12345, "tid":4, "ts":1713635742266438, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713635742266508, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/memfuncs.c" }}
+,{ "pid":12345, "tid":4, "ts":1713635742266507, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/memfuncs.c" }}
+,{ "pid":12345, "tid":4, "ts":1713635742266584, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713635742266638, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/lock-free-queue.h" }}
+,{ "pid":12345, "tid":4, "ts":1713635742266637, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/lock-free-queue.h" }}
+,{ "pid":12345, "tid":4, "ts":1713635742266721, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713635742266799, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/json.h" }}
+,{ "pid":12345, "tid":4, "ts":1713635742266799, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/json.h" }}
+,{ "pid":12345, "tid":4, "ts":1713635742266897, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/freebsd-elf32.h" }}
+,{ "pid":12345, "tid":4, "ts":1713635742266897, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/freebsd-elf32.h" }}
+,{ "pid":12345, "tid":4, "ts":1713635742268129, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713635742268184, "dur":71, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/metadata/unity-utils.c" }}
+,{ "pid":12345, "tid":4, "ts":1713635742268183, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/metadata/unity-utils.c" }}
+,{ "pid":12345, "tid":4, "ts":1713635742268256, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713635742268315, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/metadata/threadpool.h" }}
+,{ "pid":12345, "tid":4, "ts":1713635742268315, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/metadata/threadpool.h" }}
+,{ "pid":12345, "tid":4, "ts":1713635742268866, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/iOS/Features/UnityEngine.TextCoreTextEngineModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1713635742268978, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/iOS/Features/UnityEngine-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1713635742269051, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/iOS/Features/Unity.Mathematics-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1713635742269125, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/iOS/Features/System-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1713635742269367, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/iOS/Features/Mono.Security-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1713635742269506, "dur":347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/iOS/Features/UnityEngine.UI-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1713635742286029, "dur":65, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713635742214189, "dur":27009, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713635742241199, "dur":492, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713635742241691, "dur":477, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713635742242168, "dur":453, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713635742242621, "dur":470, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713635742243091, "dur":363, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713635742243455, "dur":10488, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713635742253955, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713635742254015, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713635742254099, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713635742254161, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713635742254275, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/PackageCache/com.unity.ads@4.4.2/Plugins/iOS/UnityAds.framework/Headers/UnityAdsLoadError.h" }}
+,{ "pid":12345, "tid":5, "ts":1713635742254274, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Frameworks/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityAdsLoadError.h" }}
+,{ "pid":12345, "tid":5, "ts":1713635742254443, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/PackageCache/com.unity.ads@4.4.2/Plugins/iOS/UnityAds.framework/Headers/USRVUnityPurchasing.h" }}
+,{ "pid":12345, "tid":5, "ts":1713635742254443, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Frameworks/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/USRVUnityPurchasing.h" }}
+,{ "pid":12345, "tid":5, "ts":1713635742256903, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/libil2cpp/os/Win32/Memory.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1713635742256903, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/libil2cpp/os/Win32/Memory.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1713635742258017, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/libil2cpp/os/OSX/SystemCertificates.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1713635742258395, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/libil2cpp/os/Generic/SemaphoreImpl.h" }}
+,{ "pid":12345, "tid":5, "ts":1713635742258395, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/libil2cpp/os/Generic/SemaphoreImpl.h" }}
+,{ "pid":12345, "tid":5, "ts":1713635742258714, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/libil2cpp/os/Error.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1713635742258713, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/libil2cpp/os/Error.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1713635742264733, "dur":214, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-proclib-windows.c" }}
+,{ "pid":12345, "tid":5, "ts":1713635742264733, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-proclib-windows.c" }}
+,{ "pid":12345, "tid":5, "ts":1713635742264987, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-os-wait-win32-uwp.c" }}
+,{ "pid":12345, "tid":5, "ts":1713635742264987, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-os-wait-win32-uwp.c" }}
+,{ "pid":12345, "tid":5, "ts":1713635742265066, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713635742265126, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-networkinterfaces.c" }}
+,{ "pid":12345, "tid":5, "ts":1713635742265126, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-networkinterfaces.c" }}
+,{ "pid":12345, "tid":5, "ts":1713635742265180, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713635742265349, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-logger.c" }}
+,{ "pid":12345, "tid":5, "ts":1713635742265349, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-logger.c" }}
+,{ "pid":12345, "tid":5, "ts":1713635742265404, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713635742265468, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-log-android.c" }}
+,{ "pid":12345, "tid":5, "ts":1713635742265468, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-log-android.c" }}
+,{ "pid":12345, "tid":5, "ts":1713635742265533, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713635742265641, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713635742265720, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-hwcap-arm.c" }}
+,{ "pid":12345, "tid":5, "ts":1713635742265719, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-hwcap-arm.c" }}
+,{ "pid":12345, "tid":5, "ts":1713635742265801, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713635742265871, "dur":120, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-errno.h" }}
+,{ "pid":12345, "tid":5, "ts":1713635742265870, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-errno.h" }}
+,{ "pid":12345, "tid":5, "ts":1713635742265992, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713635742266060, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-dl-darwin.c" }}
+,{ "pid":12345, "tid":5, "ts":1713635742266059, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-dl-darwin.c" }}
+,{ "pid":12345, "tid":5, "ts":1713635742266122, "dur":175, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713635742266299, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-context.c" }}
+,{ "pid":12345, "tid":5, "ts":1713635742266298, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-context.c" }}
+,{ "pid":12345, "tid":5, "ts":1713635742266366, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713635742266452, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/memfuncs.h" }}
+,{ "pid":12345, "tid":5, "ts":1713635742266451, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/memfuncs.h" }}
+,{ "pid":12345, "tid":5, "ts":1713635742266511, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713635742266591, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mach-support-amd64.c" }}
+,{ "pid":12345, "tid":5, "ts":1713635742266591, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mach-support-amd64.c" }}
+,{ "pid":12345, "tid":5, "ts":1713635742266653, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713635742266739, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/linux_magic.h" }}
+,{ "pid":12345, "tid":5, "ts":1713635742266739, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/linux_magic.h" }}
+,{ "pid":12345, "tid":5, "ts":1713635742266803, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713635742266903, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713635742266993, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713635742268085, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713635742268140, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/metadata/unity-utils.h" }}
+,{ "pid":12345, "tid":5, "ts":1713635742268140, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/metadata/unity-utils.h" }}
+,{ "pid":12345, "tid":5, "ts":1713635742268194, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713635742268278, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/metadata/threads-types.h" }}
+,{ "pid":12345, "tid":5, "ts":1713635742268277, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/metadata/threads-types.h" }}
+,{ "pid":12345, "tid":5, "ts":1713635742268329, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713635742268855, "dur":317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/iOS/Features/UnityEngine.TextCoreFontEngineModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":5, "ts":1713635742269184, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/iOS/Features/UnityEngine.UnityWebRequestModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":5, "ts":1713635742269281, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/iOS/Features/Unity.Collections-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":5, "ts":1713635742269606, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/iOS/Features/UnityEngine.AndroidJNIModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":5, "ts":1713635742269694, "dur":404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/iOS/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":5, "ts":1713635742270098, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713635742275689, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/baselib/Include/C/Baselib_ErrorState.h" }}
+,{ "pid":12345, "tid":5, "ts":1713635742275689, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_ErrorState.h" }}
+,{ "pid":12345, "tid":5, "ts":1713635742286035, "dur":61, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713635742214191, "dur":27010, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713635742241202, "dur":482, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713635742241684, "dur":478, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713635742242162, "dur":446, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713635742242608, "dur":464, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713635742243072, "dur":427, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713635742243499, "dur":10462, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713635742253963, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713635742254055, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713635742254116, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713635742254213, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713635742254369, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713635742254288, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MergeApplePrivacyManifests Library/Bee/artifacts/iOS/PrivacyInfo.xcprivacy (+1 other)" }}
+,{ "pid":12345, "tid":6, "ts":1713635742254482, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713635742256835, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/libil2cpp/os/Win32/Path.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1713635742257734, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/libil2cpp/os/Posix/LibraryLoader.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1713635742257734, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/libil2cpp/os/Posix/LibraryLoader.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1713635742264758, "dur":219, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713635742264979, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-os-wait.h" }}
+,{ "pid":12345, "tid":6, "ts":1713635742264978, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-os-wait.h" }}
+,{ "pid":12345, "tid":6, "ts":1713635742265046, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713635742265106, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-once.h" }}
+,{ "pid":12345, "tid":6, "ts":1713635742265106, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-once.h" }}
+,{ "pid":12345, "tid":6, "ts":1713635742265164, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713635742265239, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-mmap-internals.h" }}
+,{ "pid":12345, "tid":6, "ts":1713635742265238, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-mmap-internals.h" }}
+,{ "pid":12345, "tid":6, "ts":1713635742265291, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713635742265343, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-logger.h" }}
+,{ "pid":12345, "tid":6, "ts":1713635742265343, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-logger.h" }}
+,{ "pid":12345, "tid":6, "ts":1713635742265396, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713635742265461, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-log-common.c" }}
+,{ "pid":12345, "tid":6, "ts":1713635742265461, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-log-common.c" }}
+,{ "pid":12345, "tid":6, "ts":1713635742265527, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713635742265579, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-internal-hash.h" }}
+,{ "pid":12345, "tid":6, "ts":1713635742265579, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-internal-hash.h" }}
+,{ "pid":12345, "tid":6, "ts":1713635742265638, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713635742265703, "dur":88, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-hwcap-arm64.c" }}
+,{ "pid":12345, "tid":6, "ts":1713635742265702, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-hwcap-arm64.c" }}
+,{ "pid":12345, "tid":6, "ts":1713635742265791, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713635742265861, "dur":74, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-error-internals.h" }}
+,{ "pid":12345, "tid":6, "ts":1713635742265860, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-error-internals.h" }}
+,{ "pid":12345, "tid":6, "ts":1713635742265935, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713635742265998, "dur":104, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-dl-windows-internals.h" }}
+,{ "pid":12345, "tid":6, "ts":1713635742265998, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-dl-windows-internals.h" }}
+,{ "pid":12345, "tid":6, "ts":1713635742266103, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713635742266236, "dur":106, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-coop-semaphore.h" }}
+,{ "pid":12345, "tid":6, "ts":1713635742266236, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-coop-semaphore.h" }}
+,{ "pid":12345, "tid":6, "ts":1713635742266343, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713635742266416, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-compiler.h" }}
+,{ "pid":12345, "tid":6, "ts":1713635742266416, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-compiler.h" }}
+,{ "pid":12345, "tid":6, "ts":1713635742266495, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713635742266558, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mach-support.c" }}
+,{ "pid":12345, "tid":6, "ts":1713635742266557, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mach-support.c" }}
+,{ "pid":12345, "tid":6, "ts":1713635742266620, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713635742266686, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/lock-free-array-queue.c" }}
+,{ "pid":12345, "tid":6, "ts":1713635742266686, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/lock-free-array-queue.c" }}
+,{ "pid":12345, "tid":6, "ts":1713635742266770, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713635742266822, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/hazard-pointer.c" }}
+,{ "pid":12345, "tid":6, "ts":1713635742266822, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/hazard-pointer.c" }}
+,{ "pid":12345, "tid":6, "ts":1713635742268107, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/metadata/verify.h" }}
+,{ "pid":12345, "tid":6, "ts":1713635742268106, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/metadata/verify.h" }}
+,{ "pid":12345, "tid":6, "ts":1713635742268165, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713635742268224, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/metadata/tokentype.h" }}
+,{ "pid":12345, "tid":6, "ts":1713635742268224, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/metadata/tokentype.h" }}
+,{ "pid":12345, "tid":6, "ts":1713635742268293, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713635742268354, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/metadata/threadpool-worker-default.c" }}
+,{ "pid":12345, "tid":6, "ts":1713635742268354, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/metadata/threadpool-worker-default.c" }}
+,{ "pid":12345, "tid":6, "ts":1713635742268883, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/iOS/Features/UnityEngine.UnityAnalyticsModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":6, "ts":1713635742269112, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/iOS/Features/Assembly-CSharp-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":6, "ts":1713635742269405, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/iOS/Features/UnityEngine.InputLegacyModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":6, "ts":1713635742269495, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/iOS/Features/Unity.2D.Animation.Runtime-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":6, "ts":1713635742269743, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ClassRegistrationGenerator /Users/amermesmar/Desktop/Spinny Eraser/Library/Bee/artifacts/iOS/il2cppOutput/UnityClassRegistration.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1713635742274827, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713635742214201, "dur":27007, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713635742241209, "dur":486, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713635742241695, "dur":476, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713635742242171, "dur":453, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713635742242625, "dur":463, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713635742243088, "dur":412, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713635742243500, "dur":10440, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713635742253972, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713635742254107, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713635742254163, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713635742254263, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/PackageCache/com.unity.ads@4.4.2/Plugins/iOS/UnityAds.framework/Headers/UnityMonetization.h" }}
+,{ "pid":12345, "tid":7, "ts":1713635742254262, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Frameworks/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityMonetization.h" }}
+,{ "pid":12345, "tid":7, "ts":1713635742254446, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/PackageCache/com.unity.ads@4.4.2/Plugins/iOS/UnityAds.framework/Headers/USRVUnityPurchasingDelegate.h" }}
+,{ "pid":12345, "tid":7, "ts":1713635742254446, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Frameworks/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/USRVUnityPurchasingDelegate.h" }}
+,{ "pid":12345, "tid":7, "ts":1713635742258026, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/libil2cpp/os/OSX/pal_darwin.h" }}
+,{ "pid":12345, "tid":7, "ts":1713635742258025, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/libil2cpp/os/OSX/pal_darwin.h" }}
+,{ "pid":12345, "tid":7, "ts":1713635742264731, "dur":214, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-proclib.c" }}
+,{ "pid":12345, "tid":7, "ts":1713635742264730, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-proclib.c" }}
+,{ "pid":12345, "tid":7, "ts":1713635742264983, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-os-wait-win32.c" }}
+,{ "pid":12345, "tid":7, "ts":1713635742264983, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-os-wait-win32.c" }}
+,{ "pid":12345, "tid":7, "ts":1713635742265062, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713635742265125, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-networkinterfaces.h" }}
+,{ "pid":12345, "tid":7, "ts":1713635742265125, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-networkinterfaces.h" }}
+,{ "pid":12345, "tid":7, "ts":1713635742265182, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713635742265267, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-membar.h" }}
+,{ "pid":12345, "tid":7, "ts":1713635742265363, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-log-windows.c" }}
+,{ "pid":12345, "tid":7, "ts":1713635742265362, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-log-windows.c" }}
+,{ "pid":12345, "tid":7, "ts":1713635742265417, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713635742265489, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-linked-list-set.c" }}
+,{ "pid":12345, "tid":7, "ts":1713635742265488, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-linked-list-set.c" }}
+,{ "pid":12345, "tid":7, "ts":1713635742265546, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713635742265653, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713635742265743, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-forward.h" }}
+,{ "pid":12345, "tid":7, "ts":1713635742265743, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-forward.h" }}
+,{ "pid":12345, "tid":7, "ts":1713635742265804, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713635742265949, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713635742266020, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-dl-unity.c" }}
+,{ "pid":12345, "tid":7, "ts":1713635742266019, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-dl-unity.c" }}
+,{ "pid":12345, "tid":7, "ts":1713635742266099, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713635742266213, "dur":117, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-counters.c" }}
+,{ "pid":12345, "tid":7, "ts":1713635742266212, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-counters.c" }}
+,{ "pid":12345, "tid":7, "ts":1713635742266330, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713635742266408, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-complex.h" }}
+,{ "pid":12345, "tid":7, "ts":1713635742266408, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-complex.h" }}
+,{ "pid":12345, "tid":7, "ts":1713635742266492, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713635742266545, "dur":71, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mach-support.h" }}
+,{ "pid":12345, "tid":7, "ts":1713635742266545, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mach-support.h" }}
+,{ "pid":12345, "tid":7, "ts":1713635742266616, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713635742266685, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/lock-free-array-queue.h" }}
+,{ "pid":12345, "tid":7, "ts":1713635742266684, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/lock-free-array-queue.h" }}
+,{ "pid":12345, "tid":7, "ts":1713635742266763, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713635742266816, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/hazard-pointer.h" }}
+,{ "pid":12345, "tid":7, "ts":1713635742266815, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/hazard-pointer.h" }}
+,{ "pid":12345, "tid":7, "ts":1713635742268098, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/metadata/w32error-unix.c" }}
+,{ "pid":12345, "tid":7, "ts":1713635742268098, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/metadata/w32error-unix.c" }}
+,{ "pid":12345, "tid":7, "ts":1713635742268156, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713635742268216, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/metadata/unity-icall.c" }}
+,{ "pid":12345, "tid":7, "ts":1713635742268216, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/metadata/unity-icall.c" }}
+,{ "pid":12345, "tid":7, "ts":1713635742268284, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713635742268345, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/metadata/threadpool-worker.h" }}
+,{ "pid":12345, "tid":7, "ts":1713635742268345, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/metadata/threadpool-worker.h" }}
+,{ "pid":12345, "tid":7, "ts":1713635742268878, "dur":295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/iOS/Features/UnityEngine.PhysicsModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":7, "ts":1713635742269191, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/iOS/Features/UnityEngine.SharedInternalsModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":7, "ts":1713635742269317, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/iOS/Features/UnityEngine.AnimationModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":7, "ts":1713635742269476, "dur":462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/iOS/Features/UnityEngine.Advertisements-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":7, "ts":1713635742269974, "dur":709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CollectRequiredReasonAPIs Library/Bee/artifacts/iOS/AppleRequiredReasonCSharpAPIs.txt" }}
+,{ "pid":12345, "tid":7, "ts":1713635742279467, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/build/deploy_arm64/Unity.IL2CPP.Shell.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1713635742282744, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/build/deploy_arm64/System.Net.NameResolution.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713635742214204, "dur":27008, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713635742241212, "dur":487, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713635742241699, "dur":474, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713635742242173, "dur":461, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713635742242634, "dur":463, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713635742243098, "dur":10803, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713635742253982, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713635742254078, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713635742254132, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713635742254237, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/PackageCache/com.unity.ads@4.4.2/Plugins/iOS/UnityAds.framework/Headers/UnityAnalytics.h" }}
+,{ "pid":12345, "tid":8, "ts":1713635742254237, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Frameworks/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityAnalytics.h" }}
+,{ "pid":12345, "tid":8, "ts":1713635742254343, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/PackageCache/com.unity.ads@4.4.2/Plugins/iOS/UnityAds.framework/Headers/UnityServices.h" }}
+,{ "pid":12345, "tid":8, "ts":1713635742254343, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Frameworks/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityServices.h" }}
+,{ "pid":12345, "tid":8, "ts":1713635742255084, "dur":5869, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/iOS/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1713635742264739, "dur":216, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-poll.h" }}
+,{ "pid":12345, "tid":8, "ts":1713635742264739, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-poll.h" }}
+,{ "pid":12345, "tid":8, "ts":1713635742264998, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-os-semaphore.h" }}
+,{ "pid":12345, "tid":8, "ts":1713635742264997, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-os-semaphore.h" }}
+,{ "pid":12345, "tid":8, "ts":1713635742265070, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713635742265190, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713635742265359, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-logger-internals.h" }}
+,{ "pid":12345, "tid":8, "ts":1713635742265359, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-logger-internals.h" }}
+,{ "pid":12345, "tid":8, "ts":1713635742265409, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713635742265485, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-linked-list-set.h" }}
+,{ "pid":12345, "tid":8, "ts":1713635742265485, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-linked-list-set.h" }}
+,{ "pid":12345, "tid":8, "ts":1713635742265544, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713635742265656, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713635742265745, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-forward-internal.h" }}
+,{ "pid":12345, "tid":8, "ts":1713635742265744, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-forward-internal.h" }}
+,{ "pid":12345, "tid":8, "ts":1713635742265806, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713635742265906, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-dl.h" }}
+,{ "pid":12345, "tid":8, "ts":1713635742265906, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-dl.h" }}
+,{ "pid":12345, "tid":8, "ts":1713635742265966, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713635742266045, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-dl-fallback.h" }}
+,{ "pid":12345, "tid":8, "ts":1713635742266044, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-dl-fallback.h" }}
+,{ "pid":12345, "tid":8, "ts":1713635742266108, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713635742266286, "dur":71, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-context.h" }}
+,{ "pid":12345, "tid":8, "ts":1713635742266286, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-context.h" }}
+,{ "pid":12345, "tid":8, "ts":1713635742266357, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713635742266442, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mono-codeman.c" }}
+,{ "pid":12345, "tid":8, "ts":1713635742266442, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-codeman.c" }}
+,{ "pid":12345, "tid":8, "ts":1713635742266504, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713635742266582, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/mach-support-arm64.c" }}
+,{ "pid":12345, "tid":8, "ts":1713635742266582, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mach-support-arm64.c" }}
+,{ "pid":12345, "tid":8, "ts":1713635742266633, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713635742266702, "dur":92, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/utils/lock-free-alloc.c" }}
+,{ "pid":12345, "tid":8, "ts":1713635742266702, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/lock-free-alloc.c" }}
+,{ "pid":12345, "tid":8, "ts":1713635742266794, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713635742268120, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/metadata/verify-internals.h" }}
+,{ "pid":12345, "tid":8, "ts":1713635742268119, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/metadata/verify-internals.h" }}
+,{ "pid":12345, "tid":8, "ts":1713635742268179, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713635742268245, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/iOSSupport/il2cpp/external/mono/mono/metadata/threads.c" }}
+,{ "pid":12345, "tid":8, "ts":1713635742268245, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/amermesmar/Desktop/Unity Projects/Il2CppOutputProject/IL2CPP/external/mono/mono/metadata/threads.c" }}
+,{ "pid":12345, "tid":8, "ts":1713635742268303, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713635742268891, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/iOS/Features/Unity.Burst.Unsafe-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":8, "ts":1713635742268970, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/iOS/Features/UnityEngine.AudioModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":8, "ts":1713635742269047, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/iOS/Features/System.Core-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":8, "ts":1713635742269255, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/iOS/Features/UnityEngine.UIModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":8, "ts":1713635742269359, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/iOS/Features/UnityEngine.TextRenderingModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":8, "ts":1713635742269557, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/iOS/Features/UnityEngine.CoreModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":8, "ts":1713635742269671, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/iOS/Features/UnityEngine.UIElementsModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":8, "ts":1713635742274445, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713635742274833, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713635742287976, "dur":1042, "ph":"X", "name": "ProfilerWriteOutput" }
+,
